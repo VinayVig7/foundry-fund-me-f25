@@ -1,8 +1,8 @@
-#🏦 FundMe Smart Contract
+# 🏦 FundMe Smart Contract
 
 A decentralized crowdfunding contract built with Solidity and Foundry. Users can fund the contract, and the owner can withdraw the balance. Includes deployment scripts, integration testing, and Etherscan verification support.
 
-##🚀 Features
+## 🚀 Features
 
 Accepts ETH from any user
 
@@ -18,7 +18,7 @@ Deployment & interaction scripts
 
 Etherscan verification
 
-##🧰 Tech Stack
+## 🧰 Tech Stack
 
 Solidity (v0.8.18)
 
@@ -28,7 +28,7 @@ Chainlink Aggregator for price feeds
 
 dotenv for private key & API management
 
-###📁 Project Structure
+### 📁 Project Structure
 
 ├── src/                 # Contracts (FundMe.sol)
 ├── script/              # Scripts for deploy/fund/withdraw
@@ -39,7 +39,7 @@ dotenv for private key & API management
 ├── .env                 # Secrets file (excluded from git)
 └── README.md            # Project overview
 
-##🛠️ Setup
+## 🛠️ Setup
 
 Clone the repository:
 
@@ -61,11 +61,11 @@ Install dependencies:
 
 forge install
 
-##🧪 Run Tests
+## 🧪 Run Tests
 
 forge test -vvv
 
-##🚀 Deploy to Sepolia
+## 🚀 Deploy to Sepolia
 
 forge script script/DeployFundMe.s.sol \
   --rpc-url $SEPOLIA_RPC_URL \
@@ -73,7 +73,7 @@ forge script script/DeployFundMe.s.sol \
   --account <name>
   -vvvv
 
-##🔁 Interact with Contract
+## 🔁 Interact with Contract
 
 Fund the contract:
 
@@ -83,7 +83,7 @@ Withdraw from the contract:
 
 make withdraw
 
-##🔍 Verify on Etherscan
+## 🔍 Verify on Etherscan
 
 forge verify-contract \
   --chain-id 11155111 \
@@ -92,14 +92,14 @@ forge verify-contract \
   <DEPLOYED_CONTRACT_ADDRESS> \
   FundMe
 
-##✅ License
+## ✅ License
 
 MIT
 
-##🙌 Credits
+## 🙌 Credits
 
 Course Provider - Cyfrin Upcraft 
-Teacher - Patrick Collins
+Teacher - Patrick Collins 
 
 
 
