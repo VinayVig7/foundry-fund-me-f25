@@ -98,7 +98,7 @@ MIT
 
 ## 🙌 Credits
 
-Course Provider - Cyfrin Upcraft 
+Course Provider - Cyfrin Upcraft \
 Teacher - Patrick Collins 
 
 
